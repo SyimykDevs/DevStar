@@ -14,20 +14,23 @@ const Header = () => {
         <div className="container">
           <div className="header-wrapper">
             <div className="header-logo">
-              <img src={Logo} alt="" />
+              <img className="images-logo" src={Logo} alt="" />
             </div>
             <div className="navbar">
               <ul className="df">
-                <Link className="active" to="/">Главный</Link>
-                <Link className="active" to="/Comands">Команда</Link>
+                <Link  to="/">Главный</Link>
+                <Link  to="/Comands">Команда</Link>
                 <Link to="/Projects">Проекты</Link>
                 <Link to="/Contact">Контакт</Link>
               </ul>
             </div>
             <div className="dark">
+              <div className="color">
               <button className="dark__mood">
-                <CiDark />
+                <CiDark 
+                className="ciDark"/>
               </button>
+                </div>
             </div>
           </div>
         </div>
