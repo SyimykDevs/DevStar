@@ -1,7 +1,11 @@
-import React from "react";
+// import React from "react";
+
+import { Link } from "react-router-dom";
+// react icons
+import { CiDark } from "react-icons/ci";
+// images
 import Logo from "../../assets/media/logo.png";
 import "../../assets/style/Header.scss";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -13,18 +17,17 @@ const Header = () => {
               <img src={Logo} alt="" />
             </div>
             <div className="navbar">
-              <ul className="ul-wrapper">
-                <Link to="/">Главный</Link>
-                <Link to="/Comands">Команда</Link>
+              <ul className="df">
+                <Link className="active" to="/">Главный</Link>
+                <Link className="active" to="/Comands">Команда</Link>
                 <Link to="/Projects">Проекты</Link>
                 <Link to="/Contact">Контакт</Link>
               </ul>
             </div>
-            <div className="options">
-              <select name="translate">
-                <option value="RU">RU</option>
-                <option value="ENG">USA</option>
-              </select>
+            <div className="dark">
+              <button className="dark__mood">
+                <CiDark />
+              </button>
             </div>
           </div>
         </div>

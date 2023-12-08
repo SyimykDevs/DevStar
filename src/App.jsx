@@ -9,11 +9,8 @@ import Layout from './components/layout/Layout'
 import Contact from './pages/Contact'
 
 function App() {
-
-
   return (
     <>
-  
     <Routes>
         <Route path='/'  element={<Layout />}>
         <Route index element={<Home/>} />
