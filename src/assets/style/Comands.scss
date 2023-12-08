@@ -1,0 +1,71 @@
+.header {
+  .comands-wrapper {
+    .content-comands {
+      .h1 {
+        color: #5ac1e9;
+        font-family: "Istok Web" sans-serif;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+      }
+      p {
+        color: #d1d5db;
+        font-family: Istok Web;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+      }
+    }
+  }
+  .comandsPhoto {
+    margin-top: 4rem;
+    display: flex;
+    gap: 30px;
+    .flexComands {
+      border-radius: 10px;
+      border: 1px solid #4b5563;
+      display: inline-flex;
+
+      height: 478px;
+      padding: 10px;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+      width: 370px;
+      height: 478px;
+      h2 {
+        color: #fff;
+        font-family: "Istok Web" sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 330px;
+      }з
+      p {
+        color: #d1d5db;
+        font-family: "Istok Web" sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .icons {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 5px;
+        width: 340px;
+      }
+      .imgSyimyk {
+        width: 350px;
+        height: 300px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
